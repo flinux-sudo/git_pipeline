@@ -1,10 +1,8 @@
   node{
 
         stage('Build'){
+            println("running build stage")
 
-            step{
-                println(" running build stage")
-            }
         }
         stage('Test'){
 
